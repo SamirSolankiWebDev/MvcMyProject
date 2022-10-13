@@ -35,3 +35,25 @@ Selected Razor runtime.. will this aactually work ! let us test this and see... 
   It didnt worked ...
   - Because i have not added the "using System.Text.Encodings.Web;" include in my "HelloWorldController.cs"....
   - After adding this code It worked and gave me output... "This is my default action..."
+
+  - .. Added new code in HelloWorldController.cs 
+    .. added new 2 parameters in the line of code name and numTimes (Count) .. this code shows the number of count of browser refresh.
+
+    - I got Error  in this File Because I didnt Commit this line of code ..
+    public string Welcome()
+        {
+            return "This is the Welcome action method...";
+        }
+
+     and i wrote new code ..
+       public string Welcome(string name, int numTimes = 1)
+        {
+            return HtmlEncoder.Default.Encode($"Hello {name}, NumTimes is: {numTimes}");
+        }
+ 
+ -- So i commit old code and the Run the Program it worked ..
+ I calledand added this paramter in this link ..http://localhost:34699/HelloWorld/Welcome?name=Samir&numtimes=14
+  I got the OUTPUT:- 
+.........  Hello Samir, NumTimes is: 14 .......
+
+
