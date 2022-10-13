@@ -20,7 +20,8 @@ Selected Razor runtime.. will this aactually work ! let us test this and see... 
  VS19 didnt seem to push ... but refereshed the browser and new context displayed
 
 
- Part 2 .. Doing new chnages as per the part 2 documents..
+...../////////************ Part 2 .. Doing new chnages as per the part 2 documents.. ********///////////
+
  - Adding new controller 
  - Right click on "Controller" folder and add the new controller Given name "HelloWorldController.cs"
  - Now you can find the new controller "HelloWorldController.cs" inside "Controllers" Folder
@@ -63,7 +64,8 @@ Selected Razor runtime.. will this aactually work ! let us test this and see... 
  and got the output as ..Hello Samir, ID: 14..
 
 
- .. Part 3... To Add the View to ASP>NET MVC app...
+ .......//////************. Part 3... To Add the View to ASP>NET MVC app... *********/////////////
+
  - Create a new Folder inside Views Folder.. and give the name as "HelloWorld"..
  - Cretae a new File insde.. View/HelloWorld Folder and select as RazorView Empty and give the name as "Index.cshtml" 
 
@@ -98,3 +100,10 @@ Hello from our View Template!.....
 and call this link .. http://localhost:34699/HelloWorld/Welcome?name=Samir&numtimes=10
 
  After done this step commit the code and Go to next step to part 4.....
+
+
+......///************ Part 4... To Add a Modelto an ASP>NET MVC app... **********///////
+
+- First add the Class inside Models Folder and give the name as Movies.cs
+- add the line of code using System.ComponentModel.DataAnnotations; in the Movies.cs file or it will show error on line number
+ 14 on "[DataType(DataType.Date)]"
