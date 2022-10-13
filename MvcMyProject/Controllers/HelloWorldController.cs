@@ -9,15 +9,15 @@ namespace MvcMyProject.Controllers
 {
     public class HelloWorldController : Controller
     {
-       /* public IActionResult Index()
+        public IActionResult Index()
         {
             return View();
-        }*/
+        }
 
-        public string Index()
+       /* public string Index()
         {
             return "This is my default action...";
-        }
+        }*/
 
 
         // Get: HelloWorld/Welcome/

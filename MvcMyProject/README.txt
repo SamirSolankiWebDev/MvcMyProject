@@ -67,4 +67,11 @@ Selected Razor runtime.. will this aactually work ! let us test this and see... 
  - Create a new Folder inside Views Folder.. and give the name as "HelloWorld"..
  - Cretae a new File insde.. View/HelloWorld Folder and select as RazorView Empty and give the name as "Index.cshtml" 
 
+ - Before creating the View Replace the Code in HelloWorldController.cs file 
 
+ public IActionResult Index()
+{
+    return View();
+}
+
+-After doing the above code, add the file in side View folder/  and give the name as "HelloWorld"..
