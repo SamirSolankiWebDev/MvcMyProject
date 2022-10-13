@@ -109,3 +109,15 @@ and call this link .. http://localhost:34699/HelloWorld/Welcome?name=Samir&numti
  14 on "[DataType(DataType.Date)]"
 
  - Creted a new Class "MvcMovieContext.cs" inside Data Folder
+
+ - Add the code inside Startup.cs file ...
+
+ i Commented this file ....
+ "ConnectionStrings": {
+    "DefaultConnection": "Server=(localdb)\\mssqllocaldb;Database=aspnet-MvcMyProject-1C95EAB8-D7E1-4CD9-BF20-CE7DE52D548D;Trusted_Connection=True;MultipleActiveResultSets=true"
+
+    and added new Code inside appsetting.json file
+
+     "ConnectionStrings": {
+    "MvcMyProjectContext": "Server=(localdb)\\mssqllocaldb;Database=MvcMyProjectContext-1;Trusted_Connection=True;MultipleActiveResultSets=true"
+  }
