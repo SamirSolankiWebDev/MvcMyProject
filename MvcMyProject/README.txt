@@ -11,3 +11,10 @@ Selected Razor runtime.. will this aactually work ! let us test this and see... 
  Let us try to fix and see if it work
  - Let us open launchSetting.json../.. line no 7 ans comment 
  // "sslPort":44389 //
+
+ After done the comment on // "sslPort":44389 // this Line the code started running. I got the Welcome Screen on browser This link is 
+ http://localhost:34699/
+
+ 1121: Kept the application running ... testing Razor compile...
+ change some content..... index.cshtml - from "Welcome" to "Hello World"........
+ VS19 didnt seem to push ... but refereshed the browser and new context displayed
