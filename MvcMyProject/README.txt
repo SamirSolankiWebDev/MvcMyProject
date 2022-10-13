@@ -130,3 +130,5 @@ and call this link .. http://localhost:34699/HelloWorld/Welcome?name=Samir&numti
   "Add-Migration InitialCreate
 Update-Database" code in
  NuGet Package Manager > Package Manager Console (PMC).
+
+ Commit all file to Github and check new steps later...
