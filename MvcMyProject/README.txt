@@ -123,3 +123,10 @@ and call this link .. http://localhost:34699/HelloWorld/Welcome?name=Samir&numti
   }
 
   - Created a Scaffold movie page and added the new item in this..... 
+  - Let us run the code and check if the database folder is created or not....
+  - ohh no the database is not created yet .....
+
+  - I have created an Initial migration in the code by adding the
+  "Add-Migration InitialCreate
+Update-Database" code in
+ NuGet Package Manager > Package Manager Console (PMC).
