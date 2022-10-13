@@ -88,4 +88,13 @@ Hello from our View Template!.....
 
  - Now we can see the Title have changed to what we have given as MovieApp....
 
+ - Done changes in View/HelloWorld/Index.cshtml
+ .. changed the title to - "Movie List";
+ Lets Run the code and call the link .. http://localhost:34699/HelloWorld
 
+
+- Created a new file "Welcome.cshtml" inside the View/HelloWorld/Welcome.cshtml.. 
+.. Now lets run the program....
+and call this link .. http://localhost:34699/HelloWorld/Welcome?name=Samir&numtimes=10
+
+ After done this step commit the code and Go to next step to part 4.....
