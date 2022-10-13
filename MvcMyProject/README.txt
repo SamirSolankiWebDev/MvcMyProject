@@ -107,3 +107,5 @@ and call this link .. http://localhost:34699/HelloWorld/Welcome?name=Samir&numti
 - First add the Class inside Models Folder and give the name as Movies.cs
 - add the line of code using System.ComponentModel.DataAnnotations; in the Movies.cs file or it will show error on line number
  14 on "[DataType(DataType.Date)]"
+
+ - Creted a new Class "MvcMovieContext.cs" inside Data Folder
