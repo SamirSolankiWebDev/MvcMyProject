@@ -63,4 +63,8 @@ Selected Razor runtime.. will this aactually work ! let us test this and see... 
  and got the output as ..Hello Samir, ID: 14..
 
 
+ .. Part 3... To Add the View to ASP>NET MVC app...
+ - Create a new Folder inside Views Folder.. and give the name as "HelloWorld"..
+ - Cretae a new File insde.. View/HelloWorld Folder and select as RazorView Empty and give the name as "Index.cshtml" 
+
 
