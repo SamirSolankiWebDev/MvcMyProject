@@ -1,1 +1,13 @@
-﻿
+﻿Program name:MvcMyProject
+Program purpose: To review the components of an ASP.NET MVC application
+Program suthor: Samir Solanki
+Date Created: 2022-09-14 [ISO date format]
+
+1050:FirstStep: Today I Created a new application of ASP.net MVC in .NET core 3.1 framework authentication - Individual Account.
+Selected Razor runtime.. will this aactually work ! let us test this and see... [it didnt worked]
+
+1100 - Let execute the application
+1105 - Oh it didnt worked reason is This site can't be reached https://localhost:44389/
+ Let us try to fix and see if it work
+ - Let us open launchSetting.json../.. line no 7 ans comment 
+ // "sslPort":44389 //
