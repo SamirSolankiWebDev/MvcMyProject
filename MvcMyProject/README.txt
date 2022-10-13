@@ -121,3 +121,5 @@ and call this link .. http://localhost:34699/HelloWorld/Welcome?name=Samir&numti
      "ConnectionStrings": {
     "MvcMyProjectContext": "Server=(localdb)\\mssqllocaldb;Database=MvcMyProjectContext-1;Trusted_Connection=True;MultipleActiveResultSets=true"
   }
+
+  - Created a Scaffold movie page and added the new item in this..... 
