@@ -136,3 +136,5 @@ Update-Database" code in
 ......///************ Part 5... WORKING With Database in ASP>NET... **********///////
 
 - Changes in the Json File link 
+
+- Added the seed file inside Model folder and added the data as a seed.
