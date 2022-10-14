@@ -132,3 +132,5 @@ Update-Database" code in
  NuGet Package Manager > Package Manager Console (PMC).
 
  Commit all file to Github and check new steps later...
+
+......///************ Part 5... WORKING With Database in ASP>NET... **********///////
