@@ -38,7 +38,7 @@ namespace MvcMyProject
             services.AddRazorPages();
 
             services.AddDbContext<MvcMyProjectContext>(options =>
-                    options.UseSqlServer(Configuration.GetConnectionString("MvcMyProjectContext")));
+            options.UseSqlServer(Configuration.GetConnectionString("MvcMyProjectContext")));
 
         }
 
